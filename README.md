@@ -231,12 +231,3 @@ Always run NB01 first — it generates `data/enriched_bac_data.csv`.
 NB02 must run before NB03, NB04, and NB05 — it generates `data/clean/bac_panel.csv` and `data/clean/bac_crosssectional.csv`.
 
 ---
-
-## Author Notes
-
-- The 2020 drop is structural (COVID exam disruption), not a data error
-- The 2021 rebound is partly artificial (adjusted exam conditions) — account for this in modeling
-- Sfax 1 + Sfax 2 and Tunis 1 + Tunis 2 share identical socioeconomic features — they are exam center splits, not distinct administrative units
-- Population data and school counts are static (one snapshot) — they do not change across years in this dataset
-- `lycees_per_1k` is normalized by estimated 15–19 population (`population × 0.0705`), not total population
-- Comments in notebooks are clear and well-documented; each notebook has a clear objective and key steps explained
