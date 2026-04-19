@@ -191,11 +191,33 @@ This project deliberately goes beyond descriptive analysis:
 
 ---
 
-## Requirements
+## 🧰 Setup Instructions
 
-```
-pip install pandas numpy matplotlib seaborn scikit-learn scipy joblib
-```
+### 1️⃣ Create a virtual environment
+python -m venv env
+
+### 2️⃣ Activate the environment
+
+Windows:
+env\Scripts\activate
+
+Mac/Linux:
+source env/bin/activate
+
+### 3️⃣ Install dependencies
+pip install -r requirements.txt
+
+---
+
+## 📦 requirements.txt
+
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+scipy
+joblib
 
 ---
 
