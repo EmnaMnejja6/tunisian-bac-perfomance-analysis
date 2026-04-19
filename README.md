@@ -190,11 +190,3 @@ NB02 must run before NB03, NB04, and NB05 — it generates `data/bac_panel.csv` 
 
 ---
 
-## Author Notes
-
-- The 2020 drop is structural (COVID exam disruption), not a data error
-- The 2021 rebound is partly artificial (adjusted exam conditions) — account for this in modeling
-- Sfax 1 + Sfax 2 and Tunis 1 + Tunis 2 share identical socioeconomic features — they are exam center splits, not distinct administrative units
-- Population data and school counts are static (one snapshot) — they do not change across years in this dataset
-- `lycees_per_1k` is normalized by estimated 15–19 population (`population × 0.0705`), not total population
-# tunisian-bac-perfomance-analysis
